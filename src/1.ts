@@ -4,13 +4,7 @@
   напишіть скорочену ініціалізацію.
 */
 
-interface IStudent {
-  name: string;
-  age: number;
-  grade: string;
-}
-
-class Student implements IStudent {
+class Student {
   constructor(public name: string, public age: number, public grade: string) {}
 }
 
